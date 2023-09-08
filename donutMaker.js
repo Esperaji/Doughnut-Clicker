@@ -20,7 +20,6 @@ function counter(number) {
 //Display Elements Function
 function displayClickerMsg() {
     let msg = document.getElementById("message");
-    
     let clickerOne = document.getElementById("clicker1");
     msg.style.display = "block";
     clickerOne.style.display = "block";
