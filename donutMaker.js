@@ -5,7 +5,7 @@ let count = 0;
 function counter(number) {
     let showScore = document.getElementById("score");
     showScore.innerHTML = "Total Donuts = " + count;
-    
+
     let show = document.getElementById("donutAmt");
     show.innerHTML = "You have made " + count + " donuts.";
     number = count++;
@@ -20,6 +20,7 @@ function counter(number) {
 //Display Elements Function
 function displayClickerMsg() {
     let msg = document.getElementById("message");
+    
     let clickerOne = document.getElementById("clicker1");
     msg.style.display = "block";
     clickerOne.style.display = "block";
